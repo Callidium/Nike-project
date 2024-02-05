@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap');
+
+body{
+  margin: 0;
+  font-family: 'Playfair Display', serif;
+  background-color: #ffffff;
+}
+header{
+  background-color: #2e2828;
+  height: 5rem;
+  display: flex;
+}
+header a{
+  justify-items: center;
+}
+
+section{
+  background-color: #1b1818;
+  color: #000000;
+}
+
+footer{
+  background-color: #000000;
+  display: flex;
+  flex-direction: column;
+}
+#sec{
+  display: flex;
+  justify-content: right;
+  
+}
+#sneak{
+  font-family: 'Playfair Display', serif;
+  color: #ffffff;
+  width: max-content;
+}
+#sneak1{
+  display: none;
+}
+
+.op{
+  font-family: 'Playfair Display', serif;
+  color: #000000;
+  width: max-content;
+}
+#sneak h1{
+  font-size: 2rem;
+  font-weight: lighter;
+  margin: 7rem 0 0 5rem;
+}
+#sneak p{
+  font-size: 1rem;
+  font-weight: lighter;
+  margin: 1.5rem 0 0 5rem;
+}
+#sneak button{
+  font-weight: bolder;
+  height: 3rem;
+  margin: 1.5rem 0 0 rem;
+  border-style: none;
+  color: #ffffff;
+  transition: 0.5s;
+}
+.m{
+  margin: 1.5rem 0 0 5rem;
+  background-color: #15c723;
+}
+.w{
+  background-color: #ff4d00;
+  margin: 0rem 0 0 .5rem;
+}
+#sneak button:hover{
+  background-color: #1b1818;
+  border: .1rem solid #ffffff;
+  
+}
+.new img{
+  height: 25rem;
+}
+@media (max-width: 1037px){
+  #sneak{
+    display: none;
+  }
+  #sneak1{
+  color: #1b1818;
+  border: 1px solid red;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+}
+  #sneak1 p{
+  color: #1b1818;
+  width: 40rem;
+  text-align: center;
+}
+#sneak1 button{
+  font-weight: bolder;
+  height: 3rem;
+  margin: .5rem;
+  border-style: none;
+  color: #ffffff;
+  transition: 0.5s;
+}
+header{
+  float: none;
+  display: block;
+  width: 100%;
+}
+ 
+}
+@media (max-width: 664px){
+  header{
+    width: 100%;
+  }
+}
+
+#im{
+  width: 4rem;
+  margin: .1rem;
+  padding: 1rem;
+}
+#pht img{
+  width: 20.8rem;
+  height: 15rem;
+  margin-top: 5rem;
+}
+#depo h1{
+  text-align: center;
+  margin-top: 5rem;
+}
+.journal{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+}
+.journal p{
+  color: #000000;
+  font-size: 1rem;
+  width: 20rem;
+  padding: 1rem;
+  font-style: italic;
+  text-align: center;
+  background-color: #5a575738;
+  margin: 3rem;
+  
+}
+a{
+  text-decoration: none;
+}
+p{
+  color: #ffffff;
+  font-size: 2rem;
+  margin:auto;
+}
+
+
+footer p{
+  font-size: 1.4rem;
+}
+
+#links{
+  flex-wrap: wrap;
+  align-self: center;
+}
+
+#links img{
+  margin: 1rem;
+  width: 2rem;
+
+}
+#foot{
+  display: flex;
+  flex-wrap: wrap;
+}
